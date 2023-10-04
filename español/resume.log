@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.17)  17 SEP 2023 02:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.17)  3 OCT 2023 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,7 +215,25 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 7.
+(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+
+(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)))
+Package hyperref Info: Option `colorlinks' set `true' on input line 8.
 
 (C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
@@ -225,24 +243,24 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -285,9 +303,13 @@ Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
+(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+Package hyperref Info: Link coloring ON on input line 15.
+ (resume.out) (resume.out)
+\@outlinefile=\write3
+\openout3 = `resume.out'.
 
-(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 
 (C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -303,39 +325,40 @@ ii
 \MPnumerator=\count279
 \makeMPintoPDFobject=\count280
 \everyMPtoPDFconversion=\toks21
-))
-(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 )
-Package hyperref Info: Link coloring ON on input line 12.
- (resume.out) (resume.out)
-\@outlinefile=\write3
-\openout3 = `resume.out'.
+(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 
-
-Overfull \hbox (30.0pt too wide) in paragraph at lines 12--12
+(C:\Users\raide\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Overfull \hbox (30.0pt too wide) in paragraph at lines 15--15
 [] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 15.
+(Font)              <10.95> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 18.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
- []
-
-
-Overfull \hbox (35.5583pt too wide) in paragraph at lines 68--75
-[][] 
  []
 
 [1
 
-{C:/Users/raide/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-(resume.aux)
+{C:/Users/raide/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (6.00836pt too wide) in paragraph at lines 77--84
+[][] 
+ []
+
+[2] (resume.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -344,20 +367,20 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8771 strings out of 475248
- 137959 string characters out of 5757813
- 1931801 words of memory out of 5000000
- 30215 multiletter control sequences out of 15000+600000
+ 9064 strings out of 475248
+ 143287 string characters out of 5757813
+ 1930801 words of memory out of 5000000
+ 30489 multiletter control sequences out of 15000+600000
  562068 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,7n,79p,650b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,7n,79p,650b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/raide/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/raide/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/raide/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb><C:/Users/raide/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/raide/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 81086 bytes).
+Output written on resume.pdf (2 pages, 82087 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
