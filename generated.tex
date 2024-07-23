@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper,sans]{moderncv} \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{enumitem} \usepackage[top=0.6in, bottom=0.6in, left=0.75in, right=0.75in]{geometry} \usepackage{multido} \usepackage{hyperref} \usepackage{xcolor} \usepackage{csquotes}
+
+% Establecer colores personalizados 
+\definecolor{myblue}{RGB}{69,139,169} 
+\definecolor{myred}{RGB}{204,0,0} 
+\definecolor{mygray}{RGB}{85,85,85} 
+\definecolor{mymauve}{RGB}{153,153,255}
+
+% Establecer nombres de colores personalizados 
+\colorlet{colortitle}{myblue!70!white} 
+\colorlet{colorheading}{myblue} 
+\colorlet{colorlink}{blue} 
+\colorlet{colorfoot}{mygray}
+
+% Modificar tamaños de fuente 
+\setlength{\hintscolumnwidth}{3cm} \recomputehbox
+
+% Personalizar el estilo 
+\moderncvstyle{casual} 
+\moderncvcolor{blue}
+
+% Información personal 
+\name{Raidel}{Nápoles} 
+\title{Desarrollador de Software e Investigador} 
+\address{La Habana, Cuba}{Ingeniero de Software}{+53 53026190}{\href{mailto:raidelnapoles95@gmail.com}{raidelnapoles95@gmail.com}}
+
+% Datos de contacto 
+\phone[mobile]{(+53) 53026190} \email{raidelnapoles95@gmail.com} \homepage{https://www.linkedin.com/in/raidel-napoles} \social[github]{RaidelNapoles}{GitHub}
+
+% Secciones 
+\experience{ \cventry{mayo 2019 -- diciembre 2023}{Programador Backend}{Geocuba}{}{ \begin{itemize}% 
+			\item Investigación para el cálculo de rutas óptimas en mapas (\texttt{SqLite, SpatiaLite, Postgres, PostGis, Mapserver, JavaScript}). \item Desarrollo de sistemas de identificación para el censo de población y vivienda (\texttt{JavaScript, Express, Node.js}). \item Contribución al sistema de gestión y control para la actividad científica (\texttt{TypeScript, NestJS, Node.js, PostgreSQL}). \end{itemize} }{} \cventry{diciembre 2020 -- presente}{Programador Fullstack}{Departamento de Comunicación Institucional del INDER}{}{ \begin{itemize}% 
+			\item Desarrollo del sitio web del repositorio fotográfico del INDER (\texttt{HTML, CSS}). \item Implementación del sitio web de publicaciones periódicas del INDER (\texttt{Python/Django, PostgreSQL, HTML, CSS}). \end{itemize} }{} \cventry{agosto 2022 -- agosto 2023}{Programador Backend}{Rimycs (equipo de desarrollo freelance)}{}{ \begin{itemize}% 
+			\item Desarrollo de una plataforma de envío de remesas (\texttt{TypeScript, NestJS, Node.js, MongoDb, Consumir servicios de terceros}). \end{itemize} }{} \cventry{octubre 2023 -- febrero 2024}{Programador Backend}{Codeberry Solutions}{}{ \begin{itemize}% 
+			\item Desarrollo de una plataforma de creación de CVs (\texttt{TypeScript, NestJS, Node.js, PostgreSQL, Stripe}). \end{itemize} }{} \cventry{febrero 2024 -- presente}{Programador Fullstack}{SmartAnalytics}{}{ \begin{itemize}% 
+			\item Desarrollo de plataformas de búsqueda de información asistida, avisaje legal y asistencia legal (\texttt{Python, Django, Javascript, HTML, CSS}). \end{itemize} }{} }{ \cventry{}{}{}{}{\textbf{Universidad de La Habana}}{\emph{Licenciado en Ciencia de la Computación}}{2020} }
+
+\education{ \entrysep*{-1em} \entryyear{2014--2020}{\textbf{Universidad de La Habana}}{\textit{Licenciado en Ciencia de la Computación}} }
+
+\skills{ \skill{Lenguajes de programación}{Python, JavaScript, TypeScript, Kotlin, Java} \skill{Frameworks}{NestJS, Django, Express, Node.js, React} \skill{Bases de datos}{SQLite, MySQL, PostgreSQL} \skill{Control de versiones}{Git, GitLab, Github} \skill{Otras}{Resolución de problemas, Trabajo en equipo, Gestión del tiempo} }
+
+\begin{document} \makecvtitle
+	
+	\section{Experiencia Profesional} \subsection{Geocuba} \subsubsection{Programador Backend} \begin{itemize} \item Investigación para el cálculo de rutas óptimas en mapas (\texttt{SqLite, SpatiaLite, Postgres, PostGis, Mapserver, JavaScript}). \item Desarrollo de sistemas de identificación para el censo de población y vivienda (\texttt{JavaScript, Express, Node.js}). \item Contribución al sistema de gestión y control para la actividad científica (\texttt{TypeScript, NestJS, Node.js, PostgreSQL}). \end{itemize}
+	
+	\subsection{Departamento de Comunicación Institucional del INDER} \subsubsection{Programador Fullstack} \begin{itemize} \item Desarrollo del sitio web del repositorio fotográfico del INDER (\texttt{HTML, CSS}). \item Implementación del sitio web de publicaciones periódicas del INDER (\texttt{Python/Django, PostgreSQL, HTML, CSS}). \end{itemize}
+	
+	\subsection{Rimycs (equipo de desarrollo freelance)} \subsubsection{Programador Backend} \begin{itemize} \item Desarrollo de una plataforma de envío de remesas (\texttt{TypeScript, NestJS, Node.js, MongoDb, Consumir servicios de terceros}). \end{itemize}
+	
+	\subsection{Codeberry Solutions} \subsubsection{Programador Backend} \begin{itemize} \item Desarrollo de una plataforma de creación de CVs (\texttt{TypeScript, NestJS, Node.js, PostgreSQL, Stripe}). \end{itemize}
+	
+	\subsection{SmartAnalytics} \subsubsection{Programador Fullstack} \begin{itemize} \item Desarrollo de plataformas de búsqueda de información asistida, avisaje legal y asistencia legal (\texttt{Python, Django, Javascript, HTML, CSS}). \end{itemize}
+	
+	\section{Formación Académica} \textbf{Universidad de La Habana}, Licenciado en Ciencia de la Computación, 2020
+	
+	\section{Habilidades} \begin{itemize} \item Lenguajes de programación: Python, JavaScript, TypeScript, Kotlin, Java \item Frameworks: NestJS, Django, Express, Node.js, React \item Bases de datos: SQLite, MySQL, PostgreSQL \item Control de versiones: Git, GitLab, Github \item Otras: Resolución de problemas, Trabajo en equipo, Gestión del tiempo \end{itemize}
+	
+	\section{Idiomas} \begin{itemize} \item Nativo: Español \item Otros: Inglés (Nivel B1) \end{itemize}
+	
+\end{document} 

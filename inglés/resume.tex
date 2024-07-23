@@ -1,6 +1,7 @@
 \documentclass{resume} 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 \usepackage{hyperref} 
+\usepackage{lscape}
 \hypersetup{
 	colorlinks=true,  
 	urlcolor=cyan,
@@ -8,96 +9,131 @@
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Raidel Nápoles} % Your name
-\address{Software Engineer} 
+\address{Software Engineer}
 
 \begin{document}
+	
+	\begin{rSection}{Introduction}
+		I am a software developer and researcher with over 4 years of experience in technologies such as NestJs and Django, proficient in TypeScript, JavaScript, Python, Postgres, Prisma, and TypeOrm. My goal is to work on innovative and challenging projects that benefit society. I am always ready to learn new technologies and stay updated with the latest in the programming world. I am proactive and enjoy creating software following paradigms and best practices.
+		
+	\end{rSection}
+	
 	\begin{rSection}{Contact}
 		\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 			phone & (+53) 53026190\\
 			email & \href{mailto:raidelnapoles95@gmail.com}{raidelnapoles95@gmail.com} \\
 			address & Havana, Cuba\\
-			linkedin & \href{https://www.linkedin.com/in/raidel-napoles} {linkedin.com/in/raidel-napoles}\\
 			github & \href{https://github.com/RaidelNapoles} {RaidelNapoles}
 		\end{tabular}
 		
 	\end{rSection}
 	
 	
-	\begin{rSection}{Work experience}
-		\begin{rSubsection}{Geocuba}{May 2019 - present}{Backend Developer}{}
-			\item Research on the calculation of optimal routes on maps
-				\subitem (SqLite, SpatiaLite, Postgres, PostGis, Mapserver, JavaScript)
-			\item Backend Developer for the systems: 
-				\subitem Identification system for the population and housing census 
-					\subsubitem(JavaScript, Express, Node.js)
-				\subitem Management and control system for scientific activity
-					\subsubitem(TypeScript, NestJS, Node.js, PostgreSQL)
-		\end{rSubsection}
-	
-		\begin{rSubsection}{National Institute of Sports, Physical Education, and Recreation}{ December 2020 - present}{Fullstack Software Developer}{}
-			\item Frontend Developer on INDER's photographic repository website 
-				\subitem(HTML, CSS).
-			\newline	
-			\item Fullstack Software Developer on INDER's journalistic publications website 
-				\subitem(Python/Django, PostgreSQL, HTML, CSS).
+	\begin{rSection}{Work Experience}
+		\begin{rSubsection}{Geocuba}{May 2019 - December 2023}{Backend Developer}{}
+			\item Population and housing census identification system 
+			\subitem Built from scratch
+			\subitem NestJS | Postgres | TypeScript | TypeOrm
+			\subitem Team of 4 members
+			\newline
+			
+			\item Comprehensive management system designed for monitoring, access control, and recording all scientific activity of CITMA
+			\subitem Built from scratch
+			\subitem NestJS | Postgres | TypeScript | TypeOrm
+			\subitem Team of 4 members
 		\end{rSubsection}
 		
-		\begin{rSubsection}{Rimycs (freelance development team)}{ August 2022 - August 2023}{Backend Developer}{}
-			\item Development of a platform for money remittances
-			\subitem(TypeScript, NestJS, Node.js, MongoDb, Consuming third-party services).
-			
-		\end{rSubsection}
-	
-		\begin{rSubsection}{Codeberry Solutions}{ October 2023 - February 2024}{Backend Developer}{}
-			\item Development of a resume creation platform.
-			\subitem(TypeScript, NestJS, Node.js, PostgreSQL, Stripe).
+		\begin{rSubsection}{Communication Department of INDER}{December 2020 - December 2023}{Full Stack Developer}{}
+			\item Design and development of the INDER publications website 
+			\subitem Built from scratch
+			\subitem Django | Postgres | Python
+			\subitem Team of 1 member
 			
 		\end{rSubsection}
 		
-		\begin{rSubsection}{SmartAnalytics}{ February 2024 - present}{Fullstack Software Developer}{}
-			\item Fullstack programmer in the development of an assisted information search platform
-			\subitem(Python, Django, Javascript, HTML, CSS).
-			\item Fullstack programmer in the development of a legal advice platform
-			\subitem(Python, Django, Javascript, HTML, CSS).
-			\item Fullstack programmer in the development of a legal assistance platform
-			\subitem(Python, Django, Javascript, HTML, CSS).
+		\begin{rSubsection}{Rimycs}{August 2022 - August 2023}{Backend Developer}{}
+			\item Development of an innovative system that allows money transfers between friends, electronic payments, and manages bank accounts and debit cards globally. This system integrates with market-leading services, such as Rapyd Financial Network, Wise, Thunes, and others, to offer a complete and efficient solution.
+			\subitem Built from scratch
+			\subitem Nestjs | MongoDB | TypeScript | TypeOrm
+			\subitem Team of 5 members
 			
 		\end{rSubsection}	
 		
+		\begin{rSubsection}{Codeberry Solutions}{September 2023 - February 2024}{Backend Developer}{}
+			\item Development of a comprehensive system for online curriculum creation that includes subscription features and an integrated payment gateway through Stripe.
+			\subitem Built from scratch
+			\subitem Nestjs | Postgres | TypeScripts | Prisma
+			\subitem Team of 6 members
+			
+		\end{rSubsection}	
+		
+		\begin{rSubsection}{SmartAnalytics}{February 2024 - June 2024}{Full Stack Developer}{}
+			\item Design and implementation of an AI-assisted information search platform
+			\subitem Built from scratch
+			\subitem Django | Postgres | Python | LLM | Scraping
+			\subitem Team of 1 member
+			\item Design and implementation of a legal notice platform
+			\subitem Built from scratch
+			\subitem Django | Postgres | Python
+			\subitem Team of 1 member
+			\item Design and implementation of a legal assistance platform for migrants in Spain
+			\subitem Built from scratch
+			\subitem Django | Postgres | Python | LLM | Qdrant | Scraping
+			\subitem Team of 1 member
+			\item Design and implementation of a multi-tenant system for online monitoring of public opinion about political figures
+			\subitem Built from scratch
+			\subitem Django | Postgres | Python | LLM | Scraping
+			\subitem Team of 1 member
+			
+		\end{rSubsection}	
+		
+		\begin{rSubsection}{Ticuba SRL}{June 2024 - Present}{Backend Developer}{}
+			\item Design and implementation of a comprehensive management, tracking, and control platform for project assignment within the company
+			\subitem Built from scratch
+			\subitem Django | Postgres | Python | GitHub API
+			\subitem Team of 2 members
+			
+			
+		\end{rSubsection}
+		
 	\end{rSection}
-
 	
-	\begin{rSection}{Personal - Freelancer Projects}
-		\begin{rSubsection}{Mobile app developer}{}{}
-			\item  App (apk) InfoPyME
-			(\href{https://apklis.cu/application/com.napper.infopyme21}{https://apklis.cu/application/com.napper.infopyme21})
-			\subitem (Kotlin, XML, Python, SQL)
+	\begin{rSection}{Personal Projects - Independent}
+		\begin{rSubsection}{Infopyme}{January 2023 - Present}{}
+			\item Platform dedicated to providing information about micro, small, and medium-sized enterprises (MIPYMES) in Cuba. It has a directory of companies that updates monthly with information provided by the Ministry of Economy and Planning (MEP). Currently, this platform has an APK for Android deployed on Apklis (\href{https://apklis.cu/application/com.napper.infopyme21}{https://apklis.cu/application/com.napper.infopyme21}) and a website under construction
+			\subitem Built from scratch
+			\subitem Django | Postgres | Python | Scraping | Kotlin
+			\subitem Team of 1 member
 		\end{rSubsection}	
 	\end{rSection}
-	
 	
 	\begin{rSection}{Education}
+		
 		{\bf University of Havana} \hfill {\em 2014 - 2020} 
-		\\ Bachelor in Computer Science. \hfill {\em 2020}
+		\\ Bachelor's degree in Computer Science. \hfill {\em 2020}
+		
 	\end{rSection}
 	
 	
 	\begin{rSection}{Skills}
-		\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-		Programming Languages \ & Python, JavaScript, TypeScript, , Kotlin, Java  \\
-		Frameworks & NestJS, Django, Node.js, Express, React \\
-		Databases & SQLite, MySQL, PostgreSQL\\
-		Version Management & Git, GitLab, Github\\
-		Others & Problem-solving skills, Teamwork, Time management
+		
+		\begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
+			Programming Languages \ & Python, JavaScript, TypeScript  \\
+			Frameworks & NestJS, Django \\
+			Databases & SQLite, MySQL, PostgreSQL \\
+			Version Control & Git, GitLab, Github \\
+			Other & Problem-solving, Teamwork, Time Management
 		\end{tabular}
+		
 	\end{rSection}
 	
-	
-	\begin{rSection}{Language Skills}
+	\begin{rSection}{Languages}
+		
 		\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-			Mother tongue & Spanish\\
-			Other language(s) & English (B1 level)
+			Native & Spanish\\
+			Other & English (B1 Level)
 		\end{tabular}
+		
 	\end{rSection}
-
+	
 \end{document}
